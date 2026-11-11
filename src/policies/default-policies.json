@@ -1,0 +1,27 @@
+{
+  "alerts": {
+    "morningBrief": {
+      "enabled": true,
+      "time": "09:30",
+      "channels": ["telegram"],
+      "description": "Сводка выполнения плана, лидеров дня и очередей в CRM"
+    },
+    "reportDeadline": {
+      "enabled": true,
+      "deadlineMinutes": 15,
+      "channels": ["slack", "telegram"],
+      "description": "Пинг сейла, если отчет после звонка/встречи не сдан вовремя"
+    },
+    "slotDeficit": {
+      "enabled": true,
+      "hoursAhead": 3,
+      "channels": ["telegram"],
+      "description": "Предупреждение о нехватке менеджеров на смене за 3 часа"
+    },
+    "promiseCatcher": {
+      "enabled": true,
+      "channels": ["telegram"],
+      "description": "Ловит фразы 'запишу', 'созвонимся завтра', 'скину' в чатах и предлагает создать таску"
+    }
+  }
+}

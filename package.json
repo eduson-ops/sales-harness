@@ -1,0 +1,17 @@
+{
+  "name": "sales-harness",
+  "version": "1.0.0",
+  "description": "Персональный автономный AI-экзоскелет для РОПа и Коммерческого директора",
+  "main": "src/cli.mjs",
+  "type": "module",
+  "scripts": {
+    "setup": "node setup.mjs",
+    "start": "node src/cli.mjs start",
+    "briefing": "node src/cli.mjs briefing",
+    "test-connectors": "node src/cli.mjs test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2"
+  }
+}

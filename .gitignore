@@ -1,0 +1,8 @@
+.env
+.env.local
+*.session
+*.session-journal
+node_modules/
+config-active-scenarios.json
+.DS_Store
+*.log
